@@ -124,6 +124,7 @@ define("data", ["lang"], function($) {
                 if(rparse.test(value) || +value + "" === value) {
                     _eval = true;
                 }
+                dfakhdkga
                 try {
                     data = _eval ? eval("0," + value) : value;
                 } catch(e) {
